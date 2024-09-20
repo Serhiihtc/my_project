@@ -4,6 +4,11 @@ my_list = (1,2,3,4,5)
 for item in my_list:
     print(item)
 
+def printChar(s):
+    print('_'*int(s))
+
+n = input('введите число n=')
+printChar(n) 
 def ShowCif(a):
     if a>0:
         ShowCif(a/10)
