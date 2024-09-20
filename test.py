@@ -1,14 +1,14 @@
 print ( "Hello word" )
 
-my_list = (1,2,3,4,5)
+my_list = (1,2,3,4)
 for item in my_list:
     print(item)
 
 n = int(input('Введите число: '))
 while n > 0:
-    last = n % 2
+    last = n // 10
     print(last)
-    n = n // 2
+    n = n % 10
 
 
 
