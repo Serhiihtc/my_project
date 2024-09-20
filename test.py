@@ -4,13 +4,12 @@ my_list = (1,2,3,4,5)
 for item in my_list:
     print(item)
 
-n = int(input('Введите число: '))
-res = ""
-while n > 0:
-    res = str(n % 10)+ "" + res
-    n = n//10
-print (res.strip())
+def ShowCif(a):
+    if a>0:
+        ShowCif(a/10)
+        print(a%10)
 
+ShowCif(1234)
 
 
 n1 = int(input('Введите число: '))
