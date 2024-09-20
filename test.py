@@ -6,9 +6,9 @@ for item in my_list:
 
 n = int(input('Введите число: '))
 while n > 0:
-    last = n % 10
+    last = n % 2
     print(last)
-    n = n // 10
+    n = n // 2
 
 
 
