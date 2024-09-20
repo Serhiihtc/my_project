@@ -20,6 +20,6 @@ while n1 > 0:
     #print(digital)
     n1 //= 10
     print(n1)
-    n2 *= 10
-    #n2 += digital
+    #n2 *= 10
+    n2 += digital
 print(n2)
