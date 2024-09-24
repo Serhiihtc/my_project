@@ -1,22 +1,25 @@
 ####Calc####
 #print("Для завершения операции введите 0")
+
 while True:
-    
+    a = float(input('Введите первое число '))
+    b = float(input('Введите второе число '))
+    s =input("Знак (+, -, *, /,): ")
+    if s == '0':
+        break
+    if s not in ('+', '-', '*', '/'):
+        continue
 
-
-a = float(input('Введите первое число '))
-b = float(input('Введите второе число '))
-action =input('Введите действие (+ - / *): ')
-
-if action == '+':
-    print(a + b)
-elif action == '-':
-    print(a - b)
-elif action == '/':
-    print(a / b)
-elif action == '*':
-    print(a * b)
-else:
-    print('Вы вели неверное действие')
+    if s == '+':
+        print(a + b)
+    elif s == '-':
+        print(a - b)
+    elif s == '*':
+        print(a * b)
+    elif s == '/':
+        if b != 0:
+            print(a * b)
+        else:
+            print("Деление на ноль !")
     
 
