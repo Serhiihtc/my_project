@@ -1,6 +1,2 @@
-number = 0
-while number <= 10:
-    number = number + 2
-    if number == 5:
-        break 
-    print(number, end=’, ‘)
+list = [6, 4, 0, 0, 0, 6, 8]
+list.sort(key=bool, reverse=True) 
