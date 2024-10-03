@@ -1,0 +1,1 @@
+print('#' + ''.join([c for word in input().split() for c in word.title() if c.isalpha()])[:140])
