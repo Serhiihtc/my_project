@@ -18,7 +18,8 @@ while True:
     if s == 'y' or  s == 'yes':
         break
     else:
-        print('Тогда считаем дальше')            
+        print('Тогда считаем дальше')
+  
 
-        
+
 
