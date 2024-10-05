@@ -12,14 +12,10 @@ while True:
     elif y == '/' and z == 0:
         print("Делитель не равен 0")
     elif y == '/':
-        print(x/z)
+        print(x / z)
 
     s = input('Считаем дальше? ')
-    if s == 'y' or  s == 'yes':
+    if s == 'y' or s == 'Yes':
         break
     else:
-        print('Тогда считаем дальше')
-  
-
-
-
+        print('Тогда считаем дальше.')
