@@ -1,5 +1,4 @@
 class TooManyStudentsException(Exception):
-    """Виняток, що піднімається при спробі додавання більше 10-ти студентів до групи."""
     def __init__(self, message="У групі не може бути більше 10-ти студентів"):
         self.message = message
         super().__init__(self.message)
